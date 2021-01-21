@@ -9,23 +9,23 @@
                     Lap time
                 </div>
                 <div class="grid grid-cols-4 gap-2 items-center">
-                    <input type="number" class="dark:bg-gray-800 rounded p-1 text-center bg-gray-200" min="0" max="60" v-model="lapTimeMin">
+                    <input type="number" class="bg-gray-800 rounded p-1 text-center" min="0" max="60" v-model="lapTimeMin">
                     min
-                    <input type="number" class="dark:bg-gray-800 rounded p-1 text-center bg-gray-200" min="0" max="60" v-model="lapTimeSec">
+                    <input type="number" class="bg-gray-800 rounded p-1 text-center" min="0" max="60" v-model="lapTimeSec">
                     sec
                 </div>
                  <div class="text-xl col-span-1">
                     Stint Length
                 </div>
                 <div class="grid grid-cols-4 gap-2 items-center">
-                    <input type="number" class="dark:bg-gray-800 rounded p-1 text-center bg-gray-200" v-model="stintLength">
+                    <input type="number" class="bg-gray-800 rounded p-1 text-center" v-model="stintLength">
                     min
                 </div>
                  <div class="text-xl col-span-1">
                     Litres per Lap
                 </div>
                 <div class="grid grid-cols-4 gap-2 items-center">
-                    <input type="number" class="dark:bg-gray-800 rounded p-1 text-center bg-gray-200" v-model="litres">
+                    <input type="number" class="bg-gray-800 rounded p-1 text-center" v-model="litres">
                     L
                 </div>
             </div>
