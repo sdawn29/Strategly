@@ -17,12 +17,14 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
   font-family: 'Inter', sans-serif;
-  user-select: none; /* standerd */
-  -moz-user-select: none; /* firefox specific */
-  -webkit-user-select: none; /* Chrome, Opera and Safari*/
-  -ms-user-select: none; /* IE, ms-edge */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-family: 'Righteous', cursive;
 }
 </style>
