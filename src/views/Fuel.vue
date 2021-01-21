@@ -30,18 +30,29 @@
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-2 mt-4">
-                <div class="dark:bg-gray-800 bg-gray-200 rounded-md text-center p-3">
-                    Full Formation Lap
-                </div>
-                <div class="dark:bg-gray-800 bg-gray-200 rounded-md text-center p-3">
-                    Simple Formation Lap
-                </div>
             </div>
             <div class="my-4 bg-blue-700 hover:bg-blue-800 text-center p-4 rounded-lg active:bg-black cursor-pointer select-none text-white font-semibold" @click="calculate()">
                 Calculate
             </div>
         </form>
-        {{fuel}}
+        <div class="grid grid-cols-2 gap-4">
+            <div class="bg-gray-800 rounded-lg p-8">
+                <div>
+                    Risky Fuel
+                </div>
+                <div class="text-6xl">
+                    {{fuel||0}}<span class="text-sm text-gray-500 ml-2">Litres</span>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-8">
+                <div>
+                    Safe Fuel
+                </div>
+                <div class="text-6xl">
+                    {{fuel+litres*2}}<span class="text-sm text-gray-500 ml-2">Litres</span>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
